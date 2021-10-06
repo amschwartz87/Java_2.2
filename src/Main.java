@@ -6,7 +6,7 @@ public class Main {
         int addBalance = 1500;
         int bonus = addBalance / 100;
         int total = balance + addBalance + bonus;
-        if (addBalance > 1000) {
+        if (addBalance >= 1000) {
             System.out.println("Бонусы:" + bonus);
             System.out.println("Итого:" + total);
         } else {
